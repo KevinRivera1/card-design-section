@@ -16,7 +16,7 @@ export const Card = ({title,description,btn_text,bgClass,btnClass}:CardInfoProps
                 <p className="description text-balance text-left text-xl">
                     {description}
                 </p>
-                <button className={`rounded-full px-4 py-2 bg-white font-medium ${btnClass}`}>{btn_text}</button>
+                <button className={`rounded-full px-8 py-2 bg-white font-medium ${btnClass}`}>{btn_text}</button>
             </article>
     )
 }
