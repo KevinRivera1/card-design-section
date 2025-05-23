@@ -30,9 +30,9 @@ const cardData = [
 export const ContainerLayoutCard = () => {
 	return (
 		<section className="grid grid-cols-1 lg:grid-cols-3  min-h-[90vh]">
-			{cardData.map((item, index) => (
+			{cardData.map((item) => (
 				<Card
-					key={index}
+					key={item.title}
 					title={item.title}
 					description={item.description}
 					btn_text={item.btn_text}
